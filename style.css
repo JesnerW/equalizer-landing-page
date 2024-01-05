@@ -221,18 +221,17 @@ footer {
   .social {
     display: flex;
     gap: 20px;
-    & a {
+    & svg {
+      cursor: pointer;
       &:hover {
-        & svg {
-          & path {
-            fill: var(--orange);
-          }
+        & path {
+          fill: var(--orange);
         }
       }
-      & svg {
-        & path {
-          transition: ease-in-out 0.3s;
-        }
+    }
+    & svg {
+      & path {
+        transition: ease-in-out 0.3s;
       }
     }
   }
