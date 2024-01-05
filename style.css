@@ -86,6 +86,7 @@ footer {
   position: absolute;
   overflow: hidden;
   width: 100%;
+  top: 0;
   left: 0;
   height: 450px;
   z-index: -2;
@@ -252,7 +253,7 @@ footer {
     & img {
       max-width: 266.67px;
       top: -40px;
-      right: -72px;
+      right: -32px;
     }
   }
 
